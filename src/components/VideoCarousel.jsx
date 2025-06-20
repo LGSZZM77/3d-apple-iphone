@@ -6,7 +6,7 @@ import {useGSAP} from "@gsap/react";
 import {ScrollTrigger} from "gsap/all";
 gsap.registerPlugin(ScrollTrigger);
 
-function VideoCarousel() {
+const VideoCarousel = () => {
   const videoRef = useRef([]);
   const videoSpanRef = useRef([]);
   const videoDivRef = useRef([]);
@@ -198,6 +198,6 @@ function VideoCarousel() {
       </div>
     </>
   );
-}
+};
 
 export default VideoCarousel;

@@ -10,7 +10,7 @@ import {View} from "@react-three/drei";
 import {models, sizes} from "../constants";
 import {animateWithGsap, animateWithGsapTimeline} from "../utils/animations";
 
-function Model() {
+const Model = () => {
   const [size, setSize] = useState("small");
   const [model, setModel] = useState({
     title: "iPhone 15 Pro in Natural Titanium",
@@ -131,6 +131,6 @@ function Model() {
       </div>
     </section>
   );
-}
+};
 
 export default Model;

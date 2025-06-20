@@ -4,7 +4,7 @@ import {rightImg, watchImg} from "../utils";
 import VideoCarousel from "./VideoCarousel";
 import {animateWithGsap} from "../utils/animations";
 
-function Highlights() {
+const Highlights = () => {
   useGSAP(() => {
     animateWithGsap("#title", {opacity: 1, y: 0});
     gsap.to(".link", {opacity: 1, y: 0, stagger: 0.25});
@@ -33,6 +33,6 @@ function Highlights() {
       </div>
     </section>
   );
-}
+};
 
 export default Highlights;
