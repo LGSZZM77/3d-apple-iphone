@@ -14,25 +14,25 @@ export const navLists = ["Store", "Mac", "iPhone", "Support"];
 export const hightlightsSlides = [
   {
     id: 1,
-    textLists: ["Enter A17 Pro.", "Game‑changing chip.", "Groundbreaking performance."],
+    textLists: ["A17 Pro를 만나다.", "게임의 판도를 바꾸는 칩.", "혁신적인 성능."],
     video: highlightFirstVideo,
     videoDuration: 4,
   },
   {
     id: 2,
-    textLists: ["Titanium.", "So strong. So light. So Pro."],
+    textLists: ["티타늄.", "더욱 견고하게. 놀랍도록 가볍게. 그야말로 Pro."],
     video: highlightSecondVideo,
     videoDuration: 5,
   },
   {
     id: 3,
-    textLists: ["iPhone 15 Pro Max has the", "longest optical zoom in", "iPhone ever. Far out."],
+    textLists: ["iPhone 15 Pro Max는", "역대 iPhone 중 가장 긴 광학 줌을 제공합니다. 기대하셔도 좋습니다."],
     video: highlightThirdVideo,
     videoDuration: 2,
   },
   {
     id: 4,
-    textLists: ["All-new Action button.", "What will yours do?."],
+    textLists: ["완전히 새로워진 액션 버튼.", "당신은 어떻게 활용하시겠습니까?"],
     video: highlightFourthVideo,
     videoDuration: 3.63,
   },
@@ -69,5 +69,4 @@ export const sizes = [
   {label: '6.1"', value: "small"},
   {label: '6.7"', value: "large"},
 ];
-
-export const footerLinks = ["Privacy Policy", "Terms of Use", "Sales Policy", "Legal", "Site Map"];
+export const footerLinks = ["개인정보 처리방침", "사용 약관", "판매 및 환불", "사이트 맵"];

@@ -12,7 +12,7 @@ const Features = () => {
       scrollTrigger: {
         trigger: "#exploreVideo",
         toggleActions: "play pause reverse restart",
-        start: "bottom -10%",
+        start: "-10% bottom",
       },
       onComplete: () => {
         videoRef.current.play();
@@ -44,13 +44,13 @@ const Features = () => {
       <div className="screen-max-width">
         <div className="mb-12 w-full">
           <h1 id="features_title" className="section-heading">
-            Explore the full story
+            전체 스토리 보기
           </h1>
         </div>
         <div className="flex flex-col justify-center items-center overflow-hidden">
           <div className="mt-32 mb-24 pl-24">
             <h2 className="text-5xl lg:text-7xl font-semibold">iPhone</h2>
-            <h2 className="text-5xl lg:text-7xl font-semibold">Forged in titanium</h2>
+            <h2 className="text-5xl lg:text-7xl font-semibold">티타늄으로 제작</h2>
           </div>
 
           <div className="flex-center flex-col sm:px-10">
@@ -81,17 +81,17 @@ const Features = () => {
               <div className="feature-text-container">
                 <div className="flex-1 flex-center">
                   <p className="feature-text g_text">
-                    iPhone 15 Pro is {""}
-                    <span className="text-white">the first iPhone to feature an aerospace-grade titanium design</span>
-                    ,using the same alloy that spacecraft use for missions to Mars
+                    iPhone 15 Pro 는 {""}
+                    <span className="text-white">항공우주 등급 티타늄 디자인을 적용한 최초의 iPhone이며</span>
+                    ,우주선이 화성 탐사에 사용하는 것과 동일한 합금을 사용했습니다.
                   </p>
                 </div>
 
                 <div className="flex-1 flex-center">
                   <p className="feature-text g_text">
-                    Titanium has one of the best strength-to-weight ratios of any metal, making these our {""}
-                    <span className="text-white">lightest Pro models ever</span>, You'll notice the difference the
-                    moment you pick one up
+                    티타늄은 모든 금속 중 최고의 강도 대비 무게 비율을 자랑하며, 이 덕분에 {""}
+                    <span className="text-white">역대 가장 가벼운 Pro 모델</span>, 이 탄생했습니다. 기기를 손에 드는
+                    순간 그 차이를 느끼실 수 있을 겁니다.
                   </p>
                 </div>
               </div>

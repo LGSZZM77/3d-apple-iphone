@@ -15,15 +15,15 @@ const Highlights = () => {
       <div className="screen-max-width">
         <div className="mb-12 w-full md:flex items-end justify-between">
           <h1 id="title" className="section-heading">
-            Get the highlights
+            하이라이트 보기
           </h1>
           <div className="flex flex-wrap items-end gap-5">
             <p className="link">
-              Whtch the film
+              영상 보기
               <img src={watchImg} alt="watch" className="ml-2" />
             </p>
             <p className="link">
-              Whtch the event
+              이벤트 보기
               <img src={rightImg} alt="right" className="ml-2" />
             </p>
           </div>
