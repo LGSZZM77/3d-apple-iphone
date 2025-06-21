@@ -49,7 +49,7 @@ const Model = () => {
   }, []);
 
   return (
-    <section className="common-padding">
+    <section className="common-padding overflow-x-hidden">
       <div className="screen-max-width">
         <h1 id="heading" className="section-heading">
           자세히 보기
@@ -78,14 +78,10 @@ const Model = () => {
             />
 
             <Canvas
-              className="w-full h-full"
+              className="w-full h-full pointer-events"
               style={{
                 position: "fixed",
-                top: 0,
-                bottom: 0,
-                left: 0,
-                right: 0,
-                overflow: "hidden",
+                inset: 0,
               }}
               eventSource={document.getElementById("root")}
             >
